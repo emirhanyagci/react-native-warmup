@@ -1,0 +1,37 @@
+[
+  {
+    "type": "Masrafsiz Kart",
+    "name": "Samuel Edwards",
+    "number": "5414595540787290",
+    "cvv": "824",
+    "expiry": "07/29"
+  },
+  {
+    "type": "Masrafsiz Kart",
+    "name": "Carter Martinez",
+    "number": "5422700712307200",
+    "cvv": "364",
+    "expiry": "07/26"
+  },
+  {
+    "type": "Odea Axess Card",
+    "name": "Austin Morgan",
+    "number": "4391959928570609",
+    "cvv": "694",
+    "expiry": "07/26"
+  },
+  {
+    "type": "Odea Axess Card",
+    "name": "Sophia Martinez",
+    "number": "346759541361480",
+    "cvv": "7428",
+    "expiry": "07/26"
+  },
+  {
+    "type": "Odea Axess Card",
+    "name": "Ellie King",
+    "number": "5139441217314303",
+    "cvv": "682",
+    "expiry": "07/30"
+  }
+]

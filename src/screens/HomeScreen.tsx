@@ -1,9 +1,10 @@
-import { Text, View } from "react-native";
+import { View } from "react-native";
+import CardCarousel from "../components/CardCarousel";
 
 export default function HomeScreen() {
     return <View>
         {/* <HomeHeader /> */}
-        <Text>HomeScreen</Text>
+        <CardCarousel />
 
     </View>
 }
