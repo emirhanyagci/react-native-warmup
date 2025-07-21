@@ -1,13 +1,12 @@
 import { createBottomTabNavigator } from '@react-navigation/bottom-tabs';
-import HomeScreen from '../screens/HomeScreen';
 import TempScreen from '../screens/TempScreen';
 import WalletScreen from '../screens/WalletScreen';
 import ProfileScreen from '../screens/ProfileScreen';
 import TabIcon from '../components/TabIcon';
 import { useCallback } from 'react';
-import { StyleSheet, View } from 'react-native';
+import { StyleSheet, } from 'react-native';
+import HomeDrawer from '../navigation/HomeDrawer';
 const Tab = createBottomTabNavigator();
-
 const styles = StyleSheet.create({
     midTabBarItemContainerStyle: {
         bottom: 50,
@@ -47,10 +46,13 @@ export default function TabsLayout() {
     ), []);
     return (
         <Tab.Navigator screenOptions={{ "tabBarShowLabel": false, tabBarStyle: { height: 90 }, }}>
-            <Tab.Screen name='Home' component={HomeScreen} options={{
+            <Tab.Screen name='Home' component={HomeDrawer} options={{
                 tabBarItemStyle: styles.tabBarItemStyle,
                 tabBarIcon: homeIcon,
+                headerShown: false
+
             }
+
             } />
             <Tab.Screen name='Temp' component={TempScreen} options={{
                 tabBarItemStyle: styles.tabBarItemStyle,
