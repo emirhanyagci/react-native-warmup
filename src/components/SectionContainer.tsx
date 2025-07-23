@@ -11,6 +11,6 @@ export default function SectionContainer({ children }: { children: ReactNode }) 
 const styles = StyleSheet.create({
     container: {
         paddingHorizontal: 20,
-        gap: 15
+        gap: 20
     }
 })
