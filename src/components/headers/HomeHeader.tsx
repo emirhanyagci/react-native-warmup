@@ -22,7 +22,6 @@ const styles = StyleSheet.create({
         alignItems: "center",
         flexDirection: "row",
         justifyContent: "space-between",
-
     },
     notification: {
         width: 35,

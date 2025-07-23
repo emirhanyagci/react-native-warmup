@@ -27,6 +27,7 @@ function CardCarousel() {
                 width={window.width}
                 style={{
                     width: window.width,
+                    height: 220
                 }}
                 mode="parallax"
                 modeConfig={{
